@@ -8,7 +8,7 @@ const MyCard = ({data}) => {
                   <Card.Body className="d-flex flex-column justify-content-end p-2">
                     <Card.Title className="mb-auto">{data.title}</Card.Title>
                     <Card.Text>{data.category} </Card.Text>
-                    <small>Asin: {data.asin}</small>
+                    <small className="font-weight-bold">Asin: {data.asin}</small>
                     <Button variant="info">Read</Button>
                   </Card.Body>
                 </Card>
