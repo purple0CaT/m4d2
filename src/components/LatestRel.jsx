@@ -9,9 +9,9 @@ import { Card, Row, Col, Button } from "react-bootstrap"
 const LatestRel = () => {
     return (
     <>
-        <Row className="p-2">
+        <Row className="p-2 justify-content-center">
         <Col xs="12">
-          <h3>Latest Releeses</h3>
+          <h3>Latest Releases</h3>
           <hr />
         </Col>
         <MyCard data={History[0]} />
@@ -23,11 +23,11 @@ const LatestRel = () => {
 
         <Row className="p-2">
         <Col xs="12">
-          <h3>Sci-Fi Releeses</h3>
+          <h3>Sci-Fi Releases</h3>
           <hr />
         </Col>
         {
-          SciFi.map(data => MyCard({data}))
+          SciFi.slice(0,6).map(data => MyCard({data}))
         }
 
         {/* 

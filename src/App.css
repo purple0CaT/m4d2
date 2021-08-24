@@ -1,7 +1,7 @@
 body, #root {
   height: 100vh;
 }
-a {
+#footer a {
   color: rgb(207, 207, 207) !important;
   text-decoration: none;
   margin: 0;
@@ -10,7 +10,7 @@ a {
 h6 {
   margin: 0 !important;
 }
-a:hover {
+#footer a:hover {
   text-decoration: none !important;
   color: white !important;
   text-shadow: 0 0 5px white;
