@@ -29,8 +29,8 @@ const LatestRel = () => {
         {
           SciFi.map(data => MyCard({data}))
         }
-
-{/* 
+        
+        {/* 
             { SciFi.map(book => 
             <Col xs="2 mb-2" key={book.asin}>
                 <Card className="h-100">
